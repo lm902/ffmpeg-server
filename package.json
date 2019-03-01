@@ -1,0 +1,23 @@
+{
+  "name": "ffmpeg-server",
+  "version": "1.1.0",
+  "description": "Launches ffmpeg on request and pipe its stdout to the response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": "index.js",
+  "keywords": [
+    "ffmpeg",
+    "m3u8",
+    "hls",
+    "playlist",
+    "stream",
+    "server"
+  ],
+  "author": "lm902",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.7.0"
+  }
+}
